@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  user = '';
+  changeTitle() {
+    this.title = 'ahihi';
+  }
+
+  resetTitle() {
+    this.title = 'my-app';
+  }
 }
